@@ -14,6 +14,7 @@ namespace SampleWeb
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("hello world!");
             CreateWebHostBuilder(args).Build().Run();
         }
 
